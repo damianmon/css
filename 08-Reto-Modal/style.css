@@ -81,6 +81,8 @@ body {
 
 /* 1. La Capa Oscura (Fixed) */
 .modal-overlay {
+  height: 100%;
+  width: 100%;
 }
 
 /* 2. Centrado de la Caja Blanca (Absolute) + Ancla (Relative) */
