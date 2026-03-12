@@ -18,25 +18,42 @@ p {
 
 /* 1. Configuración Base para los botones */
 .btn {
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.5s ease;
 }
 
 /* 2. Botón Primario */
 .btn-primario {
+  background-color: rgb(68, 46, 192);
+  color: white;
+  border-radius: 8px;
 }
 
 .btn-primario:hover {
+  background-color: blue;
 }
 
 /* 3. Botón Outline (Secundario) */
 .btn-outline {
+  background-color: transparent;
+  color: green;
+  border: 1px solid green;
 }
 
 .btn-outline:hover {
+  background-color: green;
+  color: white;
 }
 
 /* 4. Botón Peligro */
 .btn-peligro {
+  background-color: red;
+  color: white;
 }
 
 .btn-peligro:hover {
+  box-shadow: 0 5px 15px red;
+  transform: translateY(-5px);
 }
