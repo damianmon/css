@@ -148,11 +148,15 @@ button {
   gap: 10px;
 }
 .player-left .imagen {
-  width: 40%;
+  width: 30%;
+  border-radius: 4px;
 }
 .player-center {
-  width: 40%;
-  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .player #play {
   background-color: rgb(255, 255, 255);
